@@ -68,3 +68,11 @@ footer {
   background-color: #05101a;
   color: white;
 }
+
+.small-logo {
+  max-width: 160px;
+  margin-bottom: 1rem;
+}
+.small-profile {
+  max-width: 120px;
+}
