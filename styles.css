@@ -1,0 +1,70 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #05101a;
+  line-height: 1.6;
+}
+header {
+  background-color: #05101a;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.logo {
+  max-width: 220px;
+  height: auto;
+}
+.hero {
+  background-color: rgba(93, 126, 158, 0.1);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.hero-buttons .btn {
+  margin: 1rem;
+  padding: 0.8rem 1.4rem;
+  background-color: rgb(93, 126, 158);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.about, .capabilities, .contact {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+.profile-img {
+  float: right;
+  margin: 0 0 1rem 2rem;
+  max-width: 160px;
+  border-radius: 10px;
+}
+ul {
+  padding-left: 1.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+input, textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: rgb(93, 126, 158);
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #05101a;
+  color: white;
+}
