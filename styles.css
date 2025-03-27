@@ -76,3 +76,25 @@ footer {
 .small-profile {
   max-width: 120px;
 }
+
+/* Further reduce logo and profile sizes */
+.logo.small-logo {
+  max-width: 120px;
+  height: auto;
+}
+
+.profile-img.small-profile {
+  max-width: 100px;
+  float: none;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Improve responsiveness */
+@media (max-width: 768px) {
+  .hero-buttons .btn {
+    display: block;
+    width: 100%;
+    margin: 0.5rem auto;
+  }
+}
