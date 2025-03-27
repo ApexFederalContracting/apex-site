@@ -12,9 +12,6 @@ header {
   text-align: center;
   padding: 2rem 1rem;
 }
-.logo {
-  height: auto;
-}
 .logo.small-logo {
   max-width: 180px;
   margin-bottom: 1rem;
@@ -25,7 +22,11 @@ header {
   padding: 2rem 1rem;
 }
 .hero-buttons .btn {
-  margin: 1rem;
+  display: inline-block;
+  max-width: 90%;
+  font-size: 1rem;
+  white-space: normal;
+  margin: 1rem auto;
   padding: 0.8rem 1.4rem;
   background-color: rgb(93, 126, 158);
   color: white;
@@ -39,7 +40,6 @@ header {
 }
 .profile-img.small-profile {
   max-width: 150px;
-  float: none;
   display: block;
   margin: 1rem auto;
 }
@@ -70,11 +70,4 @@ footer {
   padding: 1rem;
   background-color: #05101a;
   color: white;
-}
-@media (max-width: 768px) {
-  .hero-buttons .btn {
-    display: block;
-    width: 100%;
-    margin: 0.5rem auto;
-  }
 }
